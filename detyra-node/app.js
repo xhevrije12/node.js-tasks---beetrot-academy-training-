@@ -1,47 +1,4 @@
-// //detyra 1
 
-// // app.js - The main application file
-
-// // Import the Person constructor from the module
-// const Person = require('./person');
-
-// // Create first user object
-// const user1 = new Person('Sara', '123 Rruga Adem Jashari,Prishtine, PR');
-
-// // Create second user object
-// const user2 = new Person('Elma', 'Rruga Deshmoret e kombit, Tirane, TI');
-
-// // Test the getInfo() method for both users
-// console.log('User 1 Information:');
-// user1.getInfo();
-
-// console.log('\nUser 2 Information:');
-// user2.getInfo();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // SHTO ./ përpara emrit të folderit
 // const Person = require('./person');
 
 
