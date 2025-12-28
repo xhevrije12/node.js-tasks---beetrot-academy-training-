@@ -1,0 +1,15 @@
+{
+  "name": "github-info-pulse-electronics", 
+  "version": "1.0.0",
+  "description": "Modul që merr informacione për përdoruesit e GitHub dhe repozitorët e tyre.",
+  "main": "github-info.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "author": "PULSE Electronics Student",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
