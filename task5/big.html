@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testimi i Streams</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; padding: 20px; }
+        h1 { color: #2c3e50; }
+        .content { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Testimi i Node.js Streams</h1>
+    <div class="content">
+        <p>In Node.js, streams are a powerful and efficient way to handle reading and writing data continuously, rather than loading the entire data set into memory at once. Streams are especially useful when working with large files, network communications, or real-time data processing, where performance and memory efficiency are critical.
+
+At a high level, a stream represents a flow of data that can be processed piece by piece (in chunks) as it becomes available. This approach allows Node.js to remain fast and scalable, even when dealing with large amounts of data.</p>
+        
+        <p>Node.js provides four main types of streams:
+
+Readable Streams
+These streams are used to read data from a source. Examples include reading data from a file, receiving an HTTP request, or reading input from a database.
+
+Writable Streams
+Writable streams are used to write data to a destination, such as writing to a file, sending an HTTP response, or logging data.
+
+Duplex Streams
+Duplex streams are streams that are both readable and writable. A common example is a TCP socket, where data can be sent and received at the same time.
+
+Transform Streams
+Transform streams are a special type of duplex stream where the data is modified or transformed as it passes through the stream. Examples include data compression, encryption, or converting data formats (e.g., JSON to another format).
+        <p>Streams are a core concept in Node.js and play a crucial role in building high-performance, memory-efficient applications. By allowing developers to process data incrementally, streams align perfectly with Node.js’s asynchronous and event-driven nature.
+
+Understanding and using streams effectively is essential for handling large data volumes, improving application scalability, and building modern, real-time web applications with Node.js..</p>
+
+        <p>Streams operate by breaking data into small chunks and passing them through a buffer. When the consumer of the stream is slower than the producer, Node.js uses a mechanism called backpressure to prevent memory overload. Backpressure ensures that data flows at a rate the application can handle safely.
+
+This flow control mechanism is essential for maintaining stability and performance in large-scale applications.</p>
+    </div>
+</body>
+</html>

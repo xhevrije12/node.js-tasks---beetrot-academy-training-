@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "homework-express",
   "version": "1.0.0",
   "description": "",
@@ -13,5 +14,20 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.2.1"
+=======
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axois": "^0.0.1-security",
+    "dotenv": "^17.2.3"
+>>>>>>> a70fb3906bc5a7781341e1ff862bba3e5ac40ee4
   }
 }
