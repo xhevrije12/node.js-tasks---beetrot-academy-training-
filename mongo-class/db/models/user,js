@@ -1,0 +1,21 @@
+const mongose = require('mongose');
+
+const userSchema = new mongose.Schema({
+    name:{
+        type: String,
+    },
+    email:{
+        type: String,
+        requried: true,
+        unique: true
+    },
+    age:{
+        type: Number,
+        min: 0
+    }
+},{
+    timeStamps: true
+})
+
+const user = module.exports("user", userSchema);
+module.exports = true;

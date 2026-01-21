@@ -1,0 +1,1 @@
+const roleSchema = new mongose.Schema
